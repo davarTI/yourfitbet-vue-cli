@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar mb-0 navbar-expand-lg navbar-light bg-light">
     <!-- <a class="navbar-brand" href="index.html">YourFitnessBet</a> -->
-    <router-link to="/" class="navbar-brand">YourFitnessBet</router-link>
+    <router-link to="/" class="navbar-brand">YourFitBet</router-link>
     <button
       class="navbar-toggler"
       type="button"
