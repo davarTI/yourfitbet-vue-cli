@@ -87,7 +87,7 @@ export default {
   },
   methods: {
     getProductsIndex() {
-      const URL_P = "http://fundamentos.academlo.com/api/v1/categories/e9321038-184f-42d9-93cf-902d14f50eed/products";
+      const URL_P = "https://fundamentos.academlo.com/api/v1/categories/e9321038-184f-42d9-93cf-902d14f50eed/products";
 
       axios
         .get(URL_P)
@@ -101,7 +101,7 @@ export default {
         // });
     },
     getCategories() {
-      const URL_C = "http://fundamentos.academlo.com/api/v1/directories/1cf59506-c22e-4037-858c-d8d517f44e6f/categories";
+      const URL_C = "https://fundamentos.academlo.com/api/v1/directories/1cf59506-c22e-4037-858c-d8d517f44e6f/categories";
 
       axios.get(URL_C).then(response => {
         this.categories = response.data;

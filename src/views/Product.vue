@@ -32,7 +32,7 @@ export default {
       var urlFromHome = window.location.href;
       var uid = urlFromHome.split("?");
 
-      const URL_P = `http://fundamentos.academlo.com/api/v1/products/${uid[1]}`;
+      const URL_P = `https://fundamentos.academlo.com/api/v1/products/${uid[1]}`;
 
       axios
         .get(URL_P)

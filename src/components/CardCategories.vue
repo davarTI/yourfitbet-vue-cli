@@ -15,11 +15,15 @@
 <script>
 export default {
   name: "CardCategories",
-  props: ["category", "product"],
+  props: ["category"],
   computed: {
     pageUrl() {
       return "/category?" + this.category.uuid;
     }
+    // ,
+    // image() {
+    //   return Math.floor(Math.random()*8)+1;
+    // }
   }
 };
 </script>

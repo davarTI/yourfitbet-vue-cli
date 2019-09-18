@@ -48,7 +48,7 @@ export default {
   methods: {
     getCategories() {
       const URL_C =
-        "http://fundamentos.academlo.com/api/v1/directories/1cf59506-c22e-4037-858c-d8d517f44e6f/categories";
+        "https://fundamentos.academlo.com/api/v1/directories/1cf59506-c22e-4037-858c-d8d517f44e6f/categories";
 
       axios.get(URL_C).then(response => {
         this.categories = response.data;

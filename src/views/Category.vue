@@ -39,7 +39,7 @@ export default {
     getProducts() {
       const urlFromHome = window.location.href;
       const uid = urlFromHome.split("?");
-      const URL_C = `http://fundamentos.academlo.com/api/v1/categories/${
+      const URL_C = `https://fundamentos.academlo.com/api/v1/categories/${
         uid[1]
       }/products`;
       const name = document.getElementById("nameCategory");
