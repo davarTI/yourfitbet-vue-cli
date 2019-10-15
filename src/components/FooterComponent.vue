@@ -14,9 +14,7 @@
             <p>Developed by: &nbsp;</p>
           </div>
           <div class="text-danger">
-            <p>Christian Castillo</p>
             <p>David Armijos</p>
-            <p>Carlos Herrera</p>
           </div>
         </div>
       </div>

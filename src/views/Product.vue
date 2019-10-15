@@ -5,6 +5,7 @@
         <product-card-page-left :product="product"></product-card-page-left>
         <product-card-page-right :product="product"></product-card-page-right>
       </div>
+      <br><br><br>
     </section>
   </div>
 </template>
